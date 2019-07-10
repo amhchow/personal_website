@@ -1,0 +1,49 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  position: relative;
+  height: 100vh;
+}
+.background {
+  background-repeat: no-repeat;
+  background-size : 100%;
+  background-image: url("./images/mountains.jpg");
+}
+
+button {
+  background: transparent;
+  border: none !important;
+  cursor: pointer;
+  color:#ffb21a;
+  font-family: "";
+  font-size: 20px;
+  padding: 0 15px;
+  padding-right: 10%;
+  float: right;
+  &:hover { transform: scale(1.1); }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.title {
+  font-family: "";
+  text-align: left;
+  color:#ffb21a;
+  font-size: 64px;
+  font-weight: 900;
+  padding-top: 17.5%;
+  padding-left: 10%;
+}
+
+p.intro-text {
+  font-size: 20px;
+  margin-top: 0.2em;
+}
+
