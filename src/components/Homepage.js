@@ -1,5 +1,4 @@
 import React from "react";
-import Pdf from '../Documents/anton_chow_resume.pdf'
 
 class Homepage extends React.Component {
     constructor (props) {
@@ -18,8 +17,8 @@ class Homepage extends React.Component {
                 <div class="nav-right">
                         <a href = "google.com" class="navR1">Work</a>
                         <a href = "google.com" class="navR2">Play</a>
-                        <a href = "files\anton_chow_resume.pdf" class="navR3">Resume</a> 
-                        <a href f= "google.com" class="navR4">About</a>
+                        <a href = "public\anton_chow_resume.pdf" class="navR3">Resume</a> 
+                        <a href = "google.com" class="navR4">About</a>
                 </div>
                <div className="title">
                    Hey! I'm Anton,
