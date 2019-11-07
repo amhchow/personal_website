@@ -25,6 +25,62 @@ button {
   &:hover { transform: scale(1.1); }
 }
 
+nav {
+  display: flex;
+  width: 100%;
+  position:relative;
+  top: 100px
+}
+
+a.navL {
+  font-size: 16px;
+  position: fixed;
+  top: 30px;
+  left: 5.5%;
+  text-decoration: none;
+  color: #666666;
+}
+
+a.navR1 {
+  font-size: 16px;
+  font-family: "Souvenir", serif;
+  position: relative;
+  top: 30px;
+  left: 80%;
+  text-decoration: none;
+  color: #ffb21a; 
+}
+
+a.navR2 {
+  font-size: 16px;
+  font-family: "Souvenir", serif;
+  position: relative;
+  top: 30px;
+  left: 82.5%;
+  text-decoration: none;
+  color: #ffb21a; 
+}
+
+a.navR3 {
+  font-size: 16px;
+  font-family: "Souvenir", serif;
+  position: relative;
+  top: 30px;
+  left: 85%;
+  text-decoration: none;
+  color: #ffb21a; 
+}
+
+a.navR4 {
+  font-size: 16px;
+  font-family: "Souvenir", serif;
+  position: relative;
+  top: 30px;
+  left: 87.5%;
+  text-decoration: none;
+  color: #ffb21a
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -33,17 +89,31 @@ button {
 }
 
 .title {
-  font-family: "";
+  font-family: "Souvenir", serif;
   text-align: left;
   color:#ffb21a;
-  font-size: 64px;
-  font-weight: 900;
-  padding-top: 17.5%;
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 18%;
   padding-left: 10%;
 }
 
 p.intro-text {
-  font-size: 20px;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
   margin-top: 0.2em;
+  font-weight: 450;
+  color: #778899;
+}
+
+p.internship {
+  font-size: 16px;
+  margin-top: 0.2em;
+  font-weight: 450;
+  color: #778899;
+}
+
+. {
+
 }
 
