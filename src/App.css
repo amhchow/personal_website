@@ -46,7 +46,7 @@ a.navR1 {
   font-family: "Souvenir", serif;
   position: relative;
   top: 30px;
-  left: 80%;
+  left: 77.5%;
   text-decoration: none;
   color: #ffb21a; 
 }
@@ -56,7 +56,7 @@ a.navR2 {
   font-family: "Souvenir", serif;
   position: relative;
   top: 30px;
-  left: 82.5%;
+  left: 80%;
   text-decoration: none;
   color: #ffb21a; 
 }
@@ -66,19 +66,9 @@ a.navR3 {
   font-family: "Souvenir", serif;
   position: relative;
   top: 30px;
-  left: 85%;
+  left: 82.5%;
   text-decoration: none;
   color: #ffb21a; 
-}
-
-a.navR4 {
-  font-size: 16px;
-  font-family: "Souvenir", serif;
-  position: relative;
-  top: 30px;
-  left: 87.5%;
-  text-decoration: none;
-  color: #ffb21a
 }
 
 .sticky {
@@ -99,7 +89,7 @@ a.navR4 {
 }
 
 p.intro-text {
-  font-family: "Muli", sans-serif;
+  font-family: "Souvenir", serif;
   font-size: 16px;
   margin-top: 0.2em;
   font-weight: 450;
